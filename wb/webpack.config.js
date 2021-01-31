@@ -6,10 +6,10 @@ const plugins = require('./props/plugins')
 
 module.exports = {
   entry: './app/main.js',
-  mode: option ? 'development' : 'build',
+  mode: option ? 'development' : 'production',
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: 'bundle.js'
+    filename: 'js/bundle.js'
   },
   devServer,
   module: { rules },
