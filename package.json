@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "cross-env NODE_ENV=build webpack --config wb/webpack.config.js",
-    "dev": "webpack --config wb/webpack.config.js"
+    "dev": "webpack --config wb/webpack.config.js",
+    "serve": "webpack serve --config wb/webpack.config.js"
   },
   "keywords": [
     "webpack",
