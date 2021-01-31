@@ -1,0 +1,10 @@
+$dad-class: 'section-header';
+
+.#{$dad-class} {
+  max-width: 540px;
+  &__title {
+    color: #8ed5fa;
+    font-size: 1.6rem;
+    margin: 1.5rem 0 2rem;
+  }
+}
