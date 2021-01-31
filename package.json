@@ -4,7 +4,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env NODE_ENV=build webpack --config wb/webpack.config.js",
+    "dev": "webpack --config wb/webpack.config.js"
   },
   "keywords": [
     "webpack",
