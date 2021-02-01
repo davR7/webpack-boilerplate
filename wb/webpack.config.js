@@ -10,7 +10,7 @@ module.exports = {
   mode: option ? 'development' : 'production',
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: 'bundle.js'
+    filename: 'js/bundle.js'
   },
   devServer,
   module: { rules },
